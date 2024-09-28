@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Symplicit</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</head>
+<body>
+
+    <div id="background">
+        <img src="background.jpg" alt="Background Image">
+    </div>
+
+    <header>
+        <div class="top-bar">
+            <div class="logo">
+                <img src="logo.jpg" alt="Logo">
+            </div>
+            <div class="search-bar">
+                <form action="https://www.google.com/search" method="get">
+                    <input type="text" placeholder="Search...">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <nav class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="contactus.html">Contact</a>
+        <div class="dropdown">
+            <button class="dropbtn">Recipes
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="cakes.html">Cakes</a>
+                <a href="cookies.html">Cookies</a>
+                <a href="pastries.html">Pastries</a>
+            </div>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </nav>
+
+    <div class="container">
+        <button class="button1"><a href="cakes.html"><b>Cakes</b></a></button>
+        <button class="button2"><a href="cookies.html"><b>Cookies</b></a></button>
+        <button class="button3"><a href="pastries.html"><b>Pastries</b></a></button>
+    </div>
+
+    <div class="content">
+      
+        <div class="center-form"> 
+     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeCmtuDS_2bC-oI9zVrcWWKbKvXwHqRMSEAw_jeB5LRPsUJ4A/viewform?embedded=true" width="740" height="1582" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>          
+        </div>
+    </div>
+
+        
+        
+
+
+    <div class="footer">
+
+        <div class="containerbottom">
+          <button class="button4"><a href="cakes.html"><b>Cakes</b></a></button>
+          <button class="button5"><a href="cookies.html"><b>Cookies</b></a></button>
+          <button class="button6"><a href="pastries.html"><b>Pastries</b></a></button>
+          </div>
+        
+        
+      
+      
+          <div class="f-header">
+            <img src="logo.jpg" alt="Logo" width="355" height="75">
+          </div>
+    
+    
+    
+    <div class="f-address">
+        <p>021 1234 567</p>
+        <p>123 Bakers Avenue, Wellington</p>
+      </div>
+    </div>
+    
+    </body>
+    </html>
