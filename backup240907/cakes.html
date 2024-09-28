@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Symplict </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+</script>
+</head>
+<body>
+
+  <div id="background">
+    <img src="background.jpg">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+  </div>
+
+
+      <header>
+        <div class="top-bar">
+          <div class="logo">
+           <img src="" alt="Logo">
+          </div>
+          <div class="search-bar">
+           
+            <form action="https://www.google.com/search" method="get">
+              <input type="text" placeholder="Search...">
+              <button type="submit">Search</button>
+            </form>
+            
+          </div>
+        </div>
+      </header>
+
+
+      <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+      
+        <a href="contactus.html">Contact</a>
+        <div class="dropdown">
+          <button class="dropbtn">Recipes
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="cakes.html">Cakes</a>
+            <a href="cookies.html">Cookies</a>
+            <a href="pastries.html">Pastries</a>
+          </div>
+        </div>
+        
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+       
+      
+      
+      <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+
+<!--<img src="symplict\background.jpg" alt="centred">-->
+
+
+
+<div style="links"> 
+<div class="container">
+
+    <button class="button1"><a href="cakes.html"><b>Cakes</b></a></button>
+    <button class="button2"><a href="cookies.html"><b>Cookies</b></a></button>
+    <button class="button3"><a href="pastries.html"><b>Pastries</b></a></button>
+  </div>
+</div>
+<div class="content">
+  
+
+    <h2>Cakes</h2>
+    <div class="recipes">
+
+      
+    
+      <div class="row">
+        <div class="column">
+            <h4>Chocolate Cake</h4>
+            <img src="images\baking\chocolate.jpeg" alt="Cakes" class="image-left">
+            <div class="wrap">
+                <p>Dive into the ultimate chocolate experience with our rich chocolate cake. 
+                This recipe delivers a luscious, moist cake with an intense chocolate flavor
+                that's perfect for every occasion. Whether you're celebrating a special event 
+                or simply satisfying a craving, this cake is sure to impress with its deep 
+                cocoa notes and velvety texture. Topped with a silky chocolate ganache or 
+                your favorite frosting, it's a treat that will leave everyone wanting more. 
+                Perfect for chocoholics and dessert lovers alike!</p>
+            </div>
+        </div>
+        <div class="column">
+            <h4>Banana Bread</h4>
+            <img src="images\baking\bannana.jpeg" alt="Cookies" class="image-left">
+            <div class="wrap">
+                <p>This banana bread is moist, flavorful, and incredibly easy to make. With 
+                its rich banana flavor and soft crumb, it is a perfect way to use up ripe 
+                bananas. Enjoy it as a breakfast treat, a snack, or even dessert. The simple 
+                ingredients come together to create a loaf that is comforting and delicious, 
+                with just the right amount of sweetness.</p>
+            </div>
+        </div>
+    </div>
+
+  
+    
+</div>  
+
+
+
+
+
+
+
+<div class="footer">
+
+    <div class="containerbottom">
+      <button class="button4"><a href="cakes.html"><b>Cakes</b></a></button>
+      <button class="button5"><a href="cookies.html"><b>Cookies</b></a></button>
+      <button class="button6"><a href="pastries.html"><b>Pastries</b></a></button>
+      </div>
+    
+    
+  
+  
+      <div class="f-header">
+        <img src="" alt="Logo" width="355" height="75">
+      </div>
+
+
+
+<div class="f-address">
+    <p>021 1234 567</p></br>
+    <p>123 Bakers Avenue, Wellington</p>
+  </div>
+</div>
+
+</body>
+</html>
