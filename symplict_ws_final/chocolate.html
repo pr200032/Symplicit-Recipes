@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Symplict </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+</script>
+</head>
+<body>
+
+  <div id="background">
+    <a href="index.html">   <img src="background.jpg" alt="Background Image"></a>
+  </div>
+
+
+      <header>
+        <div class="top-bar">
+          <div class="logo">
+            <a href="index.html"> <img src="logo.jpg" alt="Logo"></a><!--Logo div-->         
+
+          </div>
+           <!-- <div class="search-bar">
+           
+            <form action="https://www.google.com/search" method="get">
+              <input type="text" placeholder="Search...">
+              <button type="submit">Search</button>
+            </form>
+            
+          </div>-->
+        </div>
+      </header>
+
+
+      <div class="topnav" id="myTopnav"><!--bottom nav div-->
+        <a href="index.html" class="active">Home</a> <!--nav links-->
+      
+        <a href="contactus.html">Contact</a><!--nav links-->
+        <div class="dropdown">
+          <button class="dropbtn">Recipes <!-- dropdown nav -->
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="cakes.html">Cakes</a><!--nav links-->
+            <a href="cookies.html">Cookies</a> <!--nav links-->
+            <a href="pastries.html">Pastries</a> <!--nav links-->
+          </div>
+        </div>
+        
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+      
+       
+      
+      
+    
+
+
+
+
+<div style="links"> 
+<div class="container"> <!-- button boxes-->
+
+    <button class="button1"><a href="cakes.html"><b>Cakes</b></a></button>
+    <button class="button2"><a href="cookies.html"><b>Cookies</b></a></button>
+    <button class="button3"><a href="pastries.html"><b>Pastries</b></a></button>
+  </div>
+</div>
+
+<div class="content">
+  
+
+    <h2>Chocolate Cake Recipe</h2> 
+
+
+    
+    <div class="recipe-container">
+      <!-- Ingredients Section -->
+      <div class="ingredients-section">
+        <h5>Chocolate Cake Ingredients:</h5>
+        <img src="images\baking\chocolate.jpeg" alt=" Chocolate Cakes" class="image-left">
+
+        <ul>
+          <li><strong>1 ¾ cups (220g)</strong> all-purpose flour</li>
+          <li><strong>¾ cup (65g)</strong> unsweetened cocoa powder</li>
+          <li><strong>1 ½ tsp</strong> baking powder</li>
+          <li><strong>1 ½ tsp</strong> baking soda</li>
+          <li><strong>1 tsp</strong> salt</li>
+          <li><strong>2 cups (400g)</strong> sugar</li>
+          <li><strong>2 large</strong> eggs</li>
+          <li><strong>1 cup (240ml)</strong> whole milk</li>
+          <li><strong>½ cup (120ml)</strong> vegetable oil</li>
+          <li><strong>2 tsp</strong> vanilla extract</li>
+          <li><strong>1 cup (240ml)</strong> boiling water</li>
+        </ul>
+      </div>
+    
+      <!-- Frosting Section -->
+      <div class="frosting-section">
+        <h5>For the Frosting:</h5>
+        <ul>
+          <li><strong>1 cup (230g)</strong> unsalted butter, softened</li>
+          <li><strong>3 ½ cups (440g)</strong> powdered sugar</li>
+          <li><strong>½ cup (60g)</strong> cocoa powder</li>
+          <li><strong>½ cup (120ml)</strong> heavy cream</li>
+          <li><strong>1 tsp</strong> vanilla extract</li>
+        </ul>
+      </div>
+    </div>
+
+    <h5>Instructions:</h5>
+  <ol class="instructions">
+  <li>Preheat oven to 350°F (175°C). Grease and flour two 9-inch round baking pans.</li>
+  <li>In a large bowl, whisk together the flour, cocoa powder, baking powder, baking soda, salt, and sugar.</li>
+  <li>Add the eggs, milk, oil, and vanilla extract. Beat with a mixer on medium speed until smooth.</li>
+  <li>Carefully stir in the boiling water. The batter will be thin, but that's okay!</li>
+  <li>Pour the batter evenly into the prepared pans. Bake for 30-35 minutes or until a toothpick inserted into the center comes out clean.</li>
+  <li>Cool in the pans for 10 minutes, then remove from pans and cool completely on a wire rack.</li>
+</ol>
+
+<h5>Frosting:</h5>
+<ol class="frosting">
+  <li>In a large bowl, beat the butter on medium speed until creamy.</li>
+  <li>Gradually add the powdered sugar and cocoa powder. Beat until well combined.</li>
+  <li>Slowly add the heavy cream and vanilla extract, and beat until fluffy and smooth.</li>
+  <li>Frost the cooled cakes, stacking them together, and cover the sides as well.</li>
+</ol>
+
+<p><strong>Enjoy your homemade chocolate cake!</strong></p>
+
+</div>
+
+
+
+<div class="footer">
+
+  <div class="containerbottom">
+    <button class="button4"><a href="cakes.html"><b>Cakes</b></a></button>
+    <button class="button5"><a href="cookies.html"><b>Cookies</b></a></button>
+    <button class="button6"><a href="pastries.html"><b>Pastries</b></a></button>
+    </div>
+  
+  
+
+
+    <div class="f-header">
+      <img src="logo.jpg" alt="Logo" width="355" height="75">
+    </div>
+
+
+
+<div class="f-address">
+  <p>021 1234 567</p>
+  <p>123 Bakers Avenue, Wellington</p>
+</div>
+</div>
+
+</body>
+</html>
